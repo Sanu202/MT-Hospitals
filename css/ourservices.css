@@ -1,0 +1,69 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  margin-top: 20px;
+}
+.flex-container > div {
+  margin: 10px;
+  width: 20%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-header {
+  height: 40%;
+  background-color: aqua;
+}
+.card-content {
+  height: 35%;
+  padding: 5px;
+  text-align: center;
+}
+.card-footer {
+  bottom: 0;
+}
+.card-content h4 {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.mri {
+  background-image: url("../images/mri.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ct {
+    background-image: url("../images/ctscanner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ambulance {
+    background-image: url("../images/ambulance.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pharmacy {
+    background-image: url("../images/pharmacy.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-card {
+  background-color: #00bbb3;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-card:hover {
+  background-color: rgb(223, 202, 15);
+}
+.card-content p {
+  font-size: 13px;
+}
+

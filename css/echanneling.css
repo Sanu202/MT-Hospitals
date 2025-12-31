@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400&family=Oswald:wght@700&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    }
+    body {
+        background: #f7f4f4;
+        padding: 0;
+        background-image: url('../images/background.jpg');
+      }
+      .wrapper { 
+        max-width: 500px;
+        width: 100%;
+        background: #fff;
+        margin: 60px auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 1px -1px 20px 0px rgb(37 207 137 / 22%);
+        }
+    .input-group {
+        padding: 5px;
+    }
+    .m_option{
+        padding: 3px;
+        border: 1px solid rgb(163 168 181 / 45%);
+    }
+    .buttoncontainer{
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn_submit{
+        padding: 8px;
+        color: #fff;
+        background-color: #31a2c5;
+        border: none;
+        width: 90%;
+        border-radius: 3px;
+    }
+    .btn_submit:hover{
+        background: #ffd658;
+    }
+    @media (max-width: 420px) {
+        .wrapper .form .input_field {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      
